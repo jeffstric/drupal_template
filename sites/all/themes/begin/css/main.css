@@ -1,0 +1,175 @@
+/* 
+    Document   : main
+    Created on : 2013-9-1, 20:06:36
+    Author     : jeff
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*主体部分 begin*/
+.center{
+  margin: 0 auto;
+}
+@media (max-width: 320px){
+  .ml10{
+    margin-left: 0px;
+  }
+}
+@media (min-width: 610px){
+  .ml10{
+    margin-left: 10px;
+  }
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.ml40{
+  margin-left: 40px;
+}
+.mr10{
+  margin-right: 10px;
+}
+.center{
+  margin:0 auto;
+}
+.w300{
+  width:300px;
+}
+
+#main{
+  box-shadow: 0 0 20px rgba(192, 192, 192, 0.4);
+  border-radius: 8px;
+}
+#header{
+  padding: 20px 0px 0px 0px;
+}
+@media (max-width: 610px){
+  #logo{
+    width:160px;
+    height:160px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 620px){
+  #logo{
+    width:160px;
+    height:160px;
+  }
+  #slogon{
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+}
+#flash{
+  margin:0 auto;
+}
+#breadcrumb{
+  margin-top: 10px;
+}
+#footer{
+  margin-top: 60px;
+}
+/*主体部分 end*/
+
+/*列表部分 begin*/
+#slide{
+  margin-top: 10px;
+  border-left:1px solid #eee;
+}
+
+.art-sec{
+  margin:20px 10px 0px 10px;
+}
+.art-sec-title{
+  margin-left: 20px;
+}
+.art-sec-title h5{
+  font-size: 20px !important;
+}
+.art-sec-info{
+  line-height: 20px;
+  margin: 10px 5px;
+}
+.arc-sec-content > p{
+  text-indent: 2em;
+}
+
+.list{
+  width:100%;
+  margin-top: 20px;
+  padding: 10px;
+}
+.list-title{
+  height: 40px;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+ul.list-ul{
+  margin-left: 5px;
+}
+li.list-item{
+  margin:5px 10px;
+  padding: 2px 0px;
+  border-bottom: 1px dotted #eee;
+  position: relative;
+  height:20px;
+  list-style: none;
+  font-size: 17px;
+}
+/*列表部分 end*/
+
+/*产品 grid部分 begin*/
+@media (max-width: 320px){
+  .product_grid{
+    /*border: 1px solid #DDDDDD;*/
+    padding: 0px;
+    width: 320px;
+  }
+}
+@media (min-width: 610px){
+  .product_grid{
+    /*border: 1px solid #DDDDDD;*/
+    padding: 10px;
+    width: 320px;
+  }
+}
+.product_grid .img_show{
+  width:320px;
+  height:215px;
+}
+.product_grid .img_show .img-rounded{
+  border-radius: 6px 6px 0 0;
+}
+.product_grid .product_info{
+  padding: 0px 10px;
+  border-radius:0 0 6px 6px ;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.product_grid .product_info .product_info_name{
+  width:60%;
+  overflow: hidden;
+}
+.product_grid .product_info .product_info_time{
+  width:40%;
+  overflow: hidden;
+}
+/*产品 grid部分 end*/
+
+/*文章部分 begin*/
+#article{
+  padding: 20px;
+}
+#article .article_info{
+  margin-top: 30px;
+}
+#article .article_content p{
+  text-indent: 2em;
+}
+/*文章部分 end*/
