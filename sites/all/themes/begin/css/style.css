@@ -87,6 +87,10 @@
   border-left:1px solid #eee;
 }
 
+.link-wrapper{
+  float: right;
+}
+
 .art-sec{
   margin:20px 10px 0px 10px;
 }
@@ -127,6 +131,10 @@ li.list-item{
   height:20px;
   list-style: none;
   font-size: 17px;
+}
+a.feed-icon{
+  display: block;
+  float: right;
 }
 /*列表部分 end*/
 
@@ -175,3 +183,9 @@ li.list-item{
   text-indent: 2em;
 }
 /*文章部分 end*/
+
+/*block begin*/
+.block{
+  padding: 10px;
+}
+/*block end*/

@@ -44,7 +44,7 @@
  * @ingroup themeable
  */
 ?>
-<div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?> style="border:1px solid #000;">
+<div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?> >
 
   <?php print render($title_prefix); ?>
 <?php if ($block->subject): ?>

@@ -161,9 +161,6 @@
       </div> <!-- /.section, /#featured -->
     <?php endif; ?>
 
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
     <div  class="row-fluid">
       <?php if ($page['sidebar_first']): ?>
         <div  class="span3">
